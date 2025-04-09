@@ -1,0 +1,198 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(./photoindex/poulet1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Page container */
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    user-select: none;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* Bouton de fermeture */
+.close-modal {
+    font-size: 30px;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: color 0.3s ease;
+}
+
+.close-button:hover {
+    background-color: #00aaff;
+}
+
+/* Modal Content - Recipe Layout */
+.modal-title {
+    text-align: center;
+    color: yellowgreen;
+    font-style: italic;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.modal-section {
+    margin-bottom: 20px;
+}
+
+.modal-section h3 {
+    color: #333;
+    border-bottom: 2px solid yellowgreen;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.modal-list,
+.modal-steps {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.modal-list li,
+.modal-steps li {
+    margin-bottom: 8px;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.print-button {
+    /* background-color: #4CAF50;  */
+    background-color: transparent;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.print-button:hover {
+    background-color: #45a049;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Individual container */
+.container {
+    display: flex;
+    width: 75%;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Image section */
+.container-img {
+    width: 150px;
+    min-width: 100px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 20px; /* ← Écart fixe avec container-text */
+    overflow: hidden;
+}
+
+/* Text section */
+.container-text {
+    flex: 1;
+    background-color: rgba(128, 128, 128, 0.719);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: black;
+    font-style: italic;
+    cursor: pointer; /* Curseur en main */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: row;
+        width: 95%;
+    }
+
+    .container-img {
+        width: 100px;
+        margin-right: 10px; /* Toujours 10px d’écart */
+    }
+
+    .container-text {
+        font-size: 13px;
+    }
+}
