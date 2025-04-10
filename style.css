@@ -683,6 +683,7 @@ img {
 .photo-container11bis {
     width: 34%;
     height: 300px;
+    
    
 }
 
@@ -695,26 +696,43 @@ img {
 .photo-container111bis {
     
     width: 100%;
-    height: 48%;
+    height: 100%;
     top: 0;
     left: 0;
     border: 1px solid black;
     padding: 5px;
-
-    background-color: rgb(140, 209, 140);
+    background-color: rgb(0, 17, 255);
     text-align: center;
     font-style: italic;
     user-select: none;
     line-height: 1rem;
     
 }
-/* .photo-container111bis img {  */
-    /* width: 100%;  */
-    /* height: 100%;  */
-    /* object-fit: cover;  */
-    /* display: block;  */
+
+.photo-container111bis-inner {
     
-/* }  */
+    background-color: rgb(209, 140, 194);
+    margin: 5px; /* Crée l'espace autour de la zone colorée */
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    text-align: center;
+    font-style: italic;
+    user-select: none;
+    line-height: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;      /* Arrange le titre et le texte verticalement */
+    justify-content: center;     /* Centre verticalement le bloc complet */
+    align-items: center;         /* Centre horizontalement chaque élément */
+    text-align: center;
+}
+
+.photo-container111bis-inner p {
+    font-size: 1rem;
+    font-style: italic;
+    
+}
+
 .photo-container112bis {
     width: 100%;
     height: 48%;
