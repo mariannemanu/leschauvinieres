@@ -1348,6 +1348,7 @@ footer {
 .footer-email {
     color: #00aaff;
     text-decoration: none;
+    font-style: italic;
     font-size: 15px;
     margin: 0 10px;
 }
@@ -1389,6 +1390,7 @@ footer {
     margin: 5px 10px; /* Un peu d'espace autour du numéro */
     text-align: center;  /* Pour centrer le numéro sous le texte */
     color: #fff;  /* Si vous voulez que le texte soit en blanc */
+    font-style: italic;
 }
 
 
