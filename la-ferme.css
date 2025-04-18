@@ -456,8 +456,8 @@ html, body {
 /* --- Cube 3D --- */
 .cube-window {
   position: absolute;
-  top: 1300px;  
-  right: 3%;
+  top: 25px;  
+  right: 5%;
   transform: scale(0.6);
 }
 

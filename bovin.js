@@ -23,6 +23,12 @@ function openModal(modalId) {
     });
   });
 
+  document.querySelectorAll('.info-section3, .image-box3').forEach(element => {
+    element.addEventListener('click', () => {
+      openModal('modal3'); // Ouvre la modal2
+    });
+  });
+
   // Fonctions d'ouverture et de fermeture de la modal
 function openModal(id) {
     document.getElementById(id).style.display = 'block';
