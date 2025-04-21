@@ -17,7 +17,7 @@ body {
   color: var(--primary-color);
   line-height: 1.6;
   display: flex;
-  background-image: url('./photoindex/rouge\ des\ prés.jpg'); /* Remplace 'ton-image.jpg' par le chemin de ta photo */
+  background-image: url('./photoferme/taureau.JPG'); /* Remplace 'ton-image.jpg' par le chemin de ta photo */
   background-size: cover; /* Fait en sorte que l'image couvre tout l'écran */
   background-position: center; /* Centre l'image */
   background-attachment: fixed; /* Rend l'image fixe pendant le scroll */
