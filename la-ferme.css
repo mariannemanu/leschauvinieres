@@ -673,7 +673,17 @@ html, body {
   }
   
 /* --------------------------------------------------- */
+.gallery01 {
+  top: 450px;
+}
+.gallery1 {
+  top: 750px;
+}
+.gallery2 {
+  top: 950px;
+}
 .gallery3 {
+  top: 1150px;
   left: 70px;
 }
 .image3 {
