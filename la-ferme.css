@@ -126,7 +126,7 @@ html, body {
   position: absolute; /* ou relative selon ton besoin */
   top: 200px; /* ajuste selon la hauteur souhaitée */
   right: 100px;
-  width: 250px;
+  width: 450px;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -151,6 +151,128 @@ html, body {
 }
 
 
+/* ----------text  rougedespres---------  */
+.textrougedespres {
+  position: absolute; /* ou relative selon ton besoin */
+  top: 530px; /* ajuste selon la hauteur souhaitée */
+  right: 20px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-rougedespres {
+  background-color: #f9f9f9;
+  border: 2px solid brown;
+  border-radius: 8px;
+  padding: 0 0 0 5px;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  max-width: 900px;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #333;
+  overflow: auto;
+}
+.text-rougedespres h2 {
+  text-decoration: underline;
+}
+
+/* ----------text  poulet---------  */
+.textpoulet {
+  position: absolute; /* ou relative selon ton besoin */
+  top: 1230px; /* ajuste selon la hauteur souhaitée */
+  left: 100px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-poulet {
+  background-color: #f9f9f9;
+  border: 2px solid brown;
+  border-radius: 8px;
+  padding: 0 0 0 5px;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  max-width: 900px;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #333;
+  overflow: auto;
+}
+.text-poulet h2 {
+  text-decoration: underline;
+}
+
+/* ----------text  poulet---------  */
+.textpoulet {
+  position: absolute; /* ou relative selon ton besoin */
+  top: 1330px; /* ajuste selon la hauteur souhaitée */
+  left: 100px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-poulet {
+  background-color: #f9f9f9;
+  border: 2px solid brown;
+  border-radius: 8px;
+  padding: 0 0 0 5px;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  max-width: 900px;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #333;
+  overflow: auto;
+}
+.text-poulet h2 {
+  text-decoration: underline;
+}
+
+
+/* ----------text  nature---------  */
+.textnature {
+  position: absolute; /* ou relative selon ton besoin */
+  top: 2200px; /* ajuste selon la hauteur souhaitée */
+  right: 200px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-nature {
+  background-color: #f9f9f9;
+  border: 2px solid brown;
+  border-radius: 8px;
+  padding: 0 0 0 5px;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  max-width: 900px;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #333;
+  overflow: auto;
+}
+.text-nature h2 {
+  text-decoration: underline;
+}
+
+
 /* ----- GALLERY 01----- */
 .gallery01 {
   position: absolute;
@@ -159,8 +281,9 @@ html, body {
   margin-bottom: 40px;
   margin-top: 10px;
   text-align: center;
-  width: 300px; /* Ajouté pour définir la largeur de la galerie */
+  width: 30%; /* Ajouté pour définir la largeur de la galerie */
   height: auto;
+  max-height: 200px;
 }
 
 /* Container de l'image */
@@ -184,6 +307,7 @@ html, body {
   height: auto;
   border-radius: 50px;
   border: 2px solid black;
+  max-height: 350px;
 }
 
 /* Description sous l'image */
@@ -205,11 +329,12 @@ html, body {
 /* ----- GALLERY 1----- */
 .gallery1 {
   position: absolute;
-  top: 550px;
+  top: 800px;
+  left: 400px;
   margin-bottom: 40px;
   margin-top: 10px;
   text-align: center;
-  width: 300px; /* Ajouté pour définir la largeur de la galerie */
+  width: 30%; /* Ajouté pour définir la largeur de la galerie */
   height: auto;
 }
 
@@ -257,7 +382,7 @@ html, body {
 .gallery2 {
   position: absolute;
   margin-bottom: 40px;
-  top: 750px;
+  top: 1050px;
   right: 20px;
   text-align: center;
 }
@@ -306,10 +431,10 @@ html, body {
 /* ----- GALLERY 3 ----- */
 .gallery3 {
   position: absolute;
-  top: 1050px;
-  left: 200px;
-  width: 400px;
-  height: 150px;
+  top: 1950px;
+  left: 400px;
+  width: 40%;
+  height: 100px;
   text-align: center;
   box-sizing: border-box;
 }
@@ -331,7 +456,7 @@ html, body {
 /* Image */
 .image3 {
   width: 100%;
-  height: 100px;
+  height: 150px;
   object-fit: cover; /* Pour forcer à remplir sans déformer trop */
   border-radius: 4px;
   border: 2px solid black;
@@ -359,10 +484,67 @@ html, body {
   color: black;
 }
 
+/* ----- GALLERY 3bis ----- */
+.gallery3bis {
+  position: absolute;
+  top: 1650px;
+  right: 100px;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Container de l'image */
+.image-container3bis {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.image-container3bis:hover {
+  transform: rotate(3deg) scale(1.2); /* Rotation légère au survol */
+}
+.image3bis:hover {
+  filter: brightness(1.2);
+}
+
+/* Image */
+.image3bis {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Pour forcer à remplir sans déformer trop */
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+/* Texte en dessous */
+.image-description3bis {
+  width: 100%;
+  height: 20px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 2px;
+  font-size: 0.7rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-description3bis p {
+  margin: 0;
+  font-size: 0.7rem;
+  /* color: var(--primary-color);  */
+  color: black;
+}
+
+
 /* ----photo scarabée plus bulles------- */
 .scarabee-chat-section {
   position: absolute;
-  top: 2200px;
+  top: 3100px;
   left: 40%;
   width: calc(100vw - 90px); 
   display: flex;
@@ -424,12 +606,12 @@ html, body {
 
 /* Position des bulles */
 .top-left {
-  top: -90px;
+  top: -50px;
   left: -210px;
 }
 
 .bottom-right {
-  bottom: -50px;
+  bottom: -10px;
   right: -30px;
 }
 
@@ -439,7 +621,7 @@ html, body {
 /* ----- GALLERY 5 ----- */
 .gallery5 {
   position: absolute;
-  top: 2500px;
+  top: 3400px;
   left: 70px;
   width:100%;
   height: 60px;
@@ -492,7 +674,7 @@ html, body {
 /* --------logo papillons--------  */
 .logo-container3 {
   position: absolute;
-  top: 2500px;
+  top: 3400px;
   left: 80%;
 }
 
@@ -505,7 +687,7 @@ html, body {
 /* --------logo abeilles--------  */
 .logo-container4 {
   position: absolute;
-  top: 2503px;
+  top: 3403px;
   left: 45%;
 }
 
@@ -517,7 +699,7 @@ html, body {
 /* --------logo fauchage--------  */
 .logo-container5 {
   position: absolute;
-  top: 2507px;
+  top: 3407px;
   left: 60%;
 }
 
@@ -530,7 +712,7 @@ html, body {
 /* --------logo environnement--------  */
 .logo-container6 {
   position: absolute;
-  top: 2502px;
+  top: 3402px;
   left: 30%;
 }
 
@@ -543,7 +725,7 @@ html, body {
 /* --------logo eau et riviere-------  */
 .logo-container7 {
   position: absolute;
-  top: 2502px;
+  top: 3402px;
   left: 15%;
 }
 
@@ -616,11 +798,34 @@ html, body {
 }
 
   
+@media screen and (max-width: 1380px) {
+  .textrougedespres {
+    width: 600px;
+  }
+  .textnature {
+    right: 10px;
+  }
+}
 
+@media screen and (max-width: 970px) {
+ .texturanium {
+  width: 250px;
+ }
+}
+
+@media screen and (max-width: 890px) {
+  .textnature {
+    width: 550px;
+  }
+  .textpoulet {
+    width: 550px;
+  }
+ }
 
 
 /* ----- RESPONSIVE ----- */
-@media screen and (max-width: 800px), screen and (max-height: 500px) {
+/* @media screen and (max-width: 800px), screen and (max-height: 500px)  */
+@media screen and (max-width: 800px) {
   :root {
       --sidebar-width: 70px;
   }
@@ -633,72 +838,39 @@ html, body {
   .content-area {
       padding: 10px;
   }
-
-  .gallery1 {
-      height: 400px;
+  
+  /* ---------responsive scarabée----------  */
+  .scarabee-container {
+    width: 100px;
   }
-  .gallery2 {
-    height: 400px;
-  }
-  .content p {
+  .speech-bubble {
+    max-width: 100px;
+    padding: 10px 15px;
     font-size: 0.7rem;
   }
-/* ----------------------------------------------  */
-  .image1 {
-    width: 70%; /* L'image prend 70% de la largeur du container */
-  }
-  .image-description1 {
-    width: 70%; /* S'adapte à la largeur du parent (l'image-container) */
-    margin-left: 45px;
-  }
-   .image-description1 p {
-    margin: 0;
-    font-size: 0.5rem;
-    /* color: var(--primary-color);  */
-    color: black;
-  }
-/* -----------------------------------------------  */
-  .image2 {
-    width: 70%; /* L'image prend 70% de la largeur du container */
-  }
-  .image-description2 {
-    width: 70%; /* S'adapte à la largeur du parent (l'image-container) */
-    margin-left: 30px;
-  }
-   .image-description2 p {
-    margin: 0;
-    font-size: 0.5rem;
-    /* color: var(--primary-color);  */
-    color: black;
+  .top-left {
+    top: -50px;
+    left: -110px;
   }
   
-/* --------------------------------------------------- */
-.gallery01 {
-  top: 450px;
+  .bottom-right {
+    bottom: -20px;
+    right: -30px;
+  }
+  /* Queue qui pointe vers la droite */
+.bubble-tail.right {
+  top: 0%;
+  right: 80px;
+  transform: translateY(-50%);
 }
-.gallery1 {
-  top: 750px;
+
+/* Queue qui pointe vers la gauche */
+.bubble-tail.left {
+  top: 120%;
+  right: 2px;
+  border-width: 40px 50px 60px 0;
 }
-.gallery2 {
-  top: 950px;
-}
-.gallery3 {
-  top: 1150px;
-  left: 70px;
-}
-.image3 {
-  width: 50%;
-}
-.image-description3 {
-  width: 50%;
-  margin-left: 100px;
-}
-.image-description3 p {
-  margin: 0;
-  font-size: 0.5rem;
-  /* color: var(--primary-color);  */
-  color: black;
-}
+  
 
 .logo1 {
   width: 40px; 
@@ -743,5 +915,120 @@ html, body {
       letter-spacing: 0;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .gallery01 {
+    top: 400px;
+    min-width: 40%;
+  }
+  .textrougedespres {
+    top: 670px;
+  }
+  .gallery1 {
+    top: 920px;
+  }
+  .gallery2 {
+    top: 1130px;
+  }
+  .textpoulet {
+    top: 1400px;
+  }
+  .gallery3bis {
+    top: 1700px;
+  }
+  .gallery3 {
+    top: 2000px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .textrougedespres {
+    right: 1px;
+    width: 80%;
+  }
+  .gallery1 {
+    left: 90px;
+  }
+  .gallery3 {
+    left: 90px;
+  }
+  .gallery2 {
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .image-description01 p {
+    font-size: 0.6rem;
+  }
+  .image-description1 p {
+    font-size: 0.6rem;
+  }
+  .image-description2 p {
+    font-size: 0.6rem;
+  }
+  .image-description3 p {
+    font-size: 0.6rem;
+  }
+  .image-description3bis p {
+    font-size: 0.6rem;
+  }
+  .textpoulet {
+    left: 60px;
+  }
+  .textnature {
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .textpoulet {
+    width: 450px;
+    left: 75px;
+  }
+  .textnature {
+    width: 450px;
+    left: 75px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .textpoulet {
+    width: 350px;
+    left: 75px;
+  }
+  .textnature {
+    width: 350px;
+    left: 75px;
+  }
+  .image-description3 {
+    height: 30px;
+  }
+  .image-description3bis {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .gallery2 {
+    right: 35px;
+  }
+  .texturanium {
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .gallery2 {
+    right: 15px;
+  }
+  .textpoulet {
+    left: 65px;
+  }
+  .textnature {
+    left: 65px;
+  }
+}
+
 
 

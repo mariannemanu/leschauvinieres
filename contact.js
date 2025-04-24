@@ -1,6 +1,6 @@
 // Initialisation d'EmailJS avec votre User ID
 (function(){
-    emailjs.init("UEQgbTpV4NaC6rHwU");
+    emailjs.init("M2yWwaZ16PgPOa2wj");
   })();
   
   // Gestion de la soumission du formulaire avec validation
@@ -35,7 +35,7 @@
     };
     
     // Envoi de l'email via EmailJS
-    emailjs.send('service_y6k5e8v', 'template_9e68r6o', templateParams)
+    emailjs.send('service_dsbbjzs', 'template_85xbexl', templateParams)
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         alert('✅Votre message a été envoyé avec succès !');
