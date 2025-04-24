@@ -1030,5 +1030,16 @@ html, body {
   }
 }
 
+@media screen and (max-height: 510px) {
+  .sidebar-title {
+    font-size: 0.7rem;
+}
+
+.sidebar-links a {
+    font-size: 0.6rem;
+    letter-spacing: 0;
+}
+}
+
 
 
