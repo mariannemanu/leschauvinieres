@@ -388,6 +388,18 @@
 }
 
 @media screen and (max-width: 520px), screen and (max-height: 500px) {
+  .resizable-box h4 {
+    font-size: 1rem;
+  }
+  .resizable-box p {
+    font-size: 0.7rem;
+  }
+  .text-box p {
+    font-size: 0.7rem;
+  }
+  .text-box1 p {
+    font-size: 0.7rem;
+  }
   .text-section {
     width: 70%;
   }
