@@ -340,11 +340,20 @@
 }
 
 
+/* ----- Logo label rouge haut de page ----- */
+.logo-container2 {
+  position: absolute;
+  top: 30px;
+  left: 15%;
+}
+.logo2 {
+  width: 100px;
+  height: auto;
+}
 
 
 
-
-/* ----- Logo label rouge ----- */
+/* ----- Logo label rouge bas de page ----- */
 .logo-container1 {
   position: absolute;
   top: 3000px;
