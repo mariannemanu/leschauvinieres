@@ -378,5 +378,29 @@
       width: calc(88vw - 70px); /* 80% largeur - ~sidebar (~220px) */
       
     }
+    .photo-bar {
+      width: calc(85vw - 70px);
+    }
+    .resizable-box {
+      width: calc(75vw - 70px); 
+    }
     
+}
+
+@media screen and (max-width: 520px), screen and (max-height: 500px) {
+  .text-section {
+    width: 70%;
+  }
+  .text-section1 {
+    left: 80px;
+    width: 70%;
+  }
+  .content h2 {
+    font-size: 1rem;
+  }
+  
+  .content p {
+    font-size: 0.8rem;
+  }
+  
 }
