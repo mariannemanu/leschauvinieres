@@ -180,6 +180,14 @@ h2 {
     cursor: pointer; /* Curseur en main */
 }
 
+@media screen and (max-width: 900px) {
+    .container-text {
+        font-size: 13px;
+    }
+}
+
+
+
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
     .container {

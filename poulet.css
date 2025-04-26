@@ -163,9 +163,10 @@
   top: 250px; /* ajuste la position verticale selon ton design */
   left: 80px; /* largeur de la sidebar */
   width: calc(95vw - 70px);
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   border: 1px solid black;
+  border-radius: 120px 120px 0px 0px;
 }
 
 .photo-bar img {
@@ -178,14 +179,15 @@
 /* ------- zone de texte---------  */
 .text-window {
   position: absolute;
-  top: 500px;       /* ajuste ici */
-  left: 80px;      /* ajuste ici en fonction de la sidebar */
+  top: 530px;       /* ajuste ici */
+  left: 80px;
+  width: calc(95vw - 70px);
   z-index: 10;
 }
 
 .resizable-box {
-  width: calc(90vw - 70px); /* 80% largeur - ~sidebar (~220px) */
-  /* min-width: 300px;  */
+  /* width: calc(90vw - 70px);  */
+  width: 96%;
   min-height: 150px;
   max-height: 150px;
   background-color: rgb(150, 79, 144);
