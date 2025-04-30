@@ -29,6 +29,24 @@ function openModal(modalId) {
     });
   });
 
+  document.querySelectorAll('.info-section4, .image-box4').forEach(element => {
+    element.addEventListener('click', () => {
+      openModal('modal4'); // Ouvre la modal2
+    });
+  });
+
+  document.querySelectorAll('.info-section5, .image-box5').forEach(element => {
+    element.addEventListener('click', () => {
+      openModal('modal5'); // Ouvre la modal2
+    });
+  });
+
+  document.querySelectorAll('.info-section6, .image-box6').forEach(element => {
+    element.addEventListener('click', () => {
+      openModal('modal6'); // Ouvre la modal2
+    });
+  });
+
   // Fonctions d'ouverture et de fermeture de la modal
 function openModal(id) {
     document.getElementById(id).style.display = 'block';

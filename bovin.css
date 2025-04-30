@@ -113,6 +113,7 @@
     height: 200px;
     margin-top: 0;
     padding-top: 0;
+    padding-left: 10px;
     background-color: rgba(128, 128, 128, 0.459);
     border: 1px solid black;
     box-sizing: border-box;
@@ -163,6 +164,7 @@ color: black;
   height: 200px;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 10px;
   background-color: rgba(128, 128, 128, 0.459);
   border: 1px solid black;
   box-sizing: border-box;
@@ -212,6 +214,7 @@ color: black;
   height: 200px;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 10px;
   background-color: rgba(128, 128, 128, 0.459);
   border: 1px solid black;
   box-sizing: border-box;
@@ -262,6 +265,7 @@ color: black;
   height: 200px;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 10px;
   background-color: rgba(128, 128, 128, 0.459);
   border: 1px solid black;
   box-sizing: border-box;
@@ -310,6 +314,7 @@ color: black;
   height: 200px;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 10px;
   background-color: rgba(128, 128, 128, 0.459);
   border: 1px solid black;
   box-sizing: border-box;
@@ -360,6 +365,7 @@ width: 50%;
 height: 200px;
 margin-top: 0;
 padding-top: 0;
+padding-left: 10px;
 background-color: rgba(128, 128, 128, 0.459);
 border: 1px solid black;
 box-sizing: border-box;
@@ -466,6 +472,11 @@ cursor: pointer;
   object-fit: cover;
   border: 1px solid black;
   margin-bottom: 15px;
+  transition: transform 2.5s ease;
+}
+
+.modal-image:hover {
+  transform: scale(1.1);
 }
 
 .modal-content h3 {
@@ -473,7 +484,11 @@ cursor: pointer;
   text-align: center; /* Centre le texte dans le h3 */
   padding: 6px;
   margin-bottom: 12px;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
 }
+
 
 .modal-content {
   background-color: #fff;
@@ -492,7 +507,8 @@ cursor: pointer;
 }
 
 .modal-content::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 255, 0.479);
+  /* background-color: rgba(0, 0, 255, 0.479);  */
+  background-color: rgba(218, 165, 32, 0.699);
   border-radius: 4px;
 }
 
@@ -502,6 +518,10 @@ cursor: pointer;
 .modal-details .detail p {
   margin: 0;
   font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 
@@ -527,7 +547,7 @@ cursor: pointer;
   margin-top: 6px;
   margin-bottom: 12px;
   border-radius: 6px;
-  background-color: #f0f0f0;
+  background-color: rgba(218, 165, 32, 0.699);
   /* padding: 8px;  */
   font-style: italic;
   color: #555;
