@@ -94,7 +94,7 @@
   .info-section1 {
     display: flex;
     margin-top: 20px;
-    gap: 15px; /* espace entre les deux boîtes */
+    /* gap: 15px;  */
   }
   .text-box1 h3 {
     font-style: italic;
@@ -118,6 +118,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     overflow-y: auto;
+    margin-right: 10px;
   }
   .text-box1:hover {
     cursor: pointer;
@@ -144,7 +145,7 @@
   display: flex;
   flex-direction: row-reverse; /* ← Inverse l'ordre des enfants */
   margin-top: 20px;
-  gap: 15px; /* espace entre les deux boîtes */
+  /* gap: 15px;  */
 }
 .text-box2 h3 {
   font-style: italic;
@@ -169,6 +170,7 @@ color: black;
   border: 1px solid black;
   box-sizing: border-box;
   overflow-y: auto;
+  margin-left: 10px;
 }
 .text-box2:hover {
   cursor: pointer;
@@ -194,7 +196,7 @@ color: black;
 .info-section3 {
   display: flex;
   margin-top: 20px;
-  gap: 15px; /* espace entre les deux boîtes */
+  /* gap: 15px;  */
 }
 .text-box3 h3 {
   font-style: italic;
@@ -219,6 +221,7 @@ color: black;
   border: 1px solid black;
   box-sizing: border-box;
   overflow-y: auto;
+  margin-right: 10px;
 }
 .text-box3:hover {
   cursor: pointer;
@@ -245,7 +248,7 @@ color: black;
   display: flex;
   flex-direction: row-reverse; /* ← Inverse l'ordre des enfants */
   margin-top: 20px;
-  gap: 15px; /* espace entre les deux boîtes */
+  /* gap: 15px;  */
 }
 .text-box4 h3 {
   font-style: italic;
@@ -270,6 +273,7 @@ color: black;
   border: 1px solid black;
   box-sizing: border-box;
   overflow-y: auto;
+  margin-left: 10px;
 }
 .text-box4:hover {
   cursor: pointer;
@@ -295,7 +299,7 @@ color: black;
 .info-section5 {
   display: flex;
   margin-top: 20px;
-  gap: 15px; /* espace entre les deux boîtes */
+  /* gap: 15px;  */
 }
 .text-box5 h3 {
   font-style: italic;
@@ -319,6 +323,7 @@ color: black;
   border: 1px solid black;
   box-sizing: border-box;
   overflow-y: auto;
+  margin-right: 10px;
 }
 .text-box5:hover {
   cursor: pointer;
@@ -345,7 +350,7 @@ color: black;
 display: flex;
 flex-direction: row-reverse; /* ← Inverse l'ordre des enfants */
 margin-top: 20px;
-gap: 15px; /* espace entre les deux boîtes */
+/* gap: 15px;  */
 }
 .text-box6 h3 {
 font-style: italic;
@@ -370,6 +375,7 @@ background-color: rgba(128, 128, 128, 0.459);
 border: 1px solid black;
 box-sizing: border-box;
 overflow-y: auto;
+margin-left: 10px;
 }
 .text-box6:hover {
   cursor: pointer;
@@ -487,6 +493,7 @@ cursor: pointer;
   color: black;
   font-style: italic;
   text-decoration: underline;
+  background-color: green;
 }
 
 
@@ -551,6 +558,7 @@ cursor: pointer;
   /* padding: 8px;  */
   font-style: italic;
   color: #555;
+  border: 1px solid blue;
 }
 
 
@@ -577,3 +585,24 @@ cursor: pointer;
       left: 85px;
     }
 } 
+
+@media screen and (min-width: 1100px) {
+  .text-box1 {
+    width: 20%;
+  }
+  .text-box2 {
+    width: 20%;
+  }
+  .text-box3 {
+    width: 20%;
+  }
+  .text-box4 {
+    width: 20%;
+  }
+  .text-box5 {
+    width: 20%;
+  }
+  .text-box6 {
+    width: 20%;
+  }
+}
