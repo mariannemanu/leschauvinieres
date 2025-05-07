@@ -62,6 +62,7 @@
     letter-spacing: 10px;
     font-weight: bold;
     text-decoration: underline;
+    user-select: none;
   }
    
   /* ----- CONTENU PRINCIPAL ----- */
@@ -84,11 +85,15 @@
     text-shadow: 2px 2px 5px;
     color: black;
     font-style: italic;
+    user-select: none;
   }
   
   .content p {
     text-align: center;
     font-style: italic;
+    color: black;
+    text-decoration: underline;
+    user-select: none;
   }
   /* --------section 1------------   */
   .info-section1 {
@@ -102,6 +107,7 @@
    text-decoration: underline;
    margin: 0;
   padding: 0;
+  padding-top: 10px;
   line-height: 1;
 }
 .text-box1 p {
@@ -119,6 +125,7 @@
     box-sizing: border-box;
     overflow-y: auto;
     margin-right: 10px;
+    user-select: none;
   }
   .text-box1:hover {
     cursor: pointer;
@@ -130,6 +137,7 @@
     border-radius: 5px;
     overflow: hidden;
     border: 1px solid black;
+    user-select: none;
   }
     .image-box1 img {
     width: 100%;
@@ -153,6 +161,7 @@
  text-decoration: underline;
  margin: 0;
 padding: 0;
+padding-top: 10px;
 line-height: 1;
 
 }
@@ -171,6 +180,7 @@ color: black;
   box-sizing: border-box;
   overflow-y: auto;
   margin-left: 10px;
+  user-select: none;
 }
 .text-box2:hover {
   cursor: pointer;
@@ -182,6 +192,7 @@ color: black;
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid black;
+  user-select: none;
 }
   .image-box2 img {
   width: 100%;
@@ -204,6 +215,7 @@ color: black;
  text-decoration: underline;
  margin: 0;
 padding: 0;
+padding-top: 10px;
 line-height: 1;
 
 }
@@ -222,6 +234,7 @@ color: black;
   box-sizing: border-box;
   overflow-y: auto;
   margin-right: 10px;
+  user-select: none;
 }
 .text-box3:hover {
   cursor: pointer;
@@ -233,6 +246,7 @@ color: black;
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid black;
+  user-select: none;
 }
   .image-box3 img {
   width: 100%;
@@ -256,6 +270,7 @@ color: black;
  text-decoration: underline;
  margin: 0;
 padding: 0;
+padding-top: 10px;
 line-height: 1;
 
 }
@@ -274,6 +289,7 @@ color: black;
   box-sizing: border-box;
   overflow-y: auto;
   margin-left: 10px;
+  user-select: none;
 }
 .text-box4:hover {
   cursor: pointer;
@@ -285,6 +301,7 @@ color: black;
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid black;
+  user-select: none;
 }
   .image-box4 img {
   width: 100%;
@@ -307,6 +324,7 @@ color: black;
  text-decoration: underline;
  margin: 0;
 padding: 0;
+padding-top: 10px;
 line-height: 1;
 }
 .text-box5 p {
@@ -324,6 +342,7 @@ color: black;
   box-sizing: border-box;
   overflow-y: auto;
   margin-right: 10px;
+  user-select: none;
 }
 .text-box5:hover {
   cursor: pointer;
@@ -335,6 +354,7 @@ color: black;
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid black;
+  user-select: none;
 }
   .image-box5 img {
   width: 100%;
@@ -358,6 +378,7 @@ color: black;
 text-decoration: underline;
 margin: 0;
 padding: 0;
+padding-top: 10px;
 line-height: 1;
 
 }
@@ -376,6 +397,7 @@ border: 1px solid black;
 box-sizing: border-box;
 overflow-y: auto;
 margin-left: 10px;
+user-select: none;
 }
 .text-box6:hover {
   cursor: pointer;
@@ -387,6 +409,7 @@ border: 1px solid #ccc;
 border-radius: 5px;
 overflow: hidden;
 border: 1px solid black;
+user-select: none;
 }
 .image-box6 img {
 width: 100%;
@@ -424,6 +447,7 @@ cursor: pointer;
   width: 50px;
   height: 50px;
   border: 1px solid black;
+  user-select: none;
 }
 
 .face img {
@@ -494,6 +518,7 @@ cursor: pointer;
   font-style: italic;
   text-decoration: underline;
   background-color: green;
+  user-select: none;
 }
 
 
@@ -507,6 +532,7 @@ cursor: pointer;
   border: 1px solid black;
   max-height: 80vh;         /* Limite la hauteur de la modal */
   overflow-y: auto;  
+  user-select: none;
 }
 
 .modal-content::-webkit-scrollbar {
